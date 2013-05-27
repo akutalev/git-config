@@ -1,0 +1,17 @@
+[user]
+  name=Andrey Kutalev
+  email=akutalev@gmail.com
+
+[color]
+  ui = true
+  status=auto
+  branch=auto
+  interactive=auto
+  diff=auto
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
